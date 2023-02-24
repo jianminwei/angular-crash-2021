@@ -14,12 +14,14 @@ export class HeaderComponent implements OnInit {
   subscription: Subscription;
 
   constructor(private uiService: UiService, private router: Router) {
+
+  }
+
+  ngOnInit(): void {
     this.subscription = this.uiService
       .onToggle()
       .subscribe((value) => (this.showAddTask = value));
   }
-
-  ngOnInit(): void {}
   
    ngOnDestroy() {
      // Unsubscribe to ensure no memory leaks

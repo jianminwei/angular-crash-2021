@@ -17,6 +17,2016 @@
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
       "reminder": false
+    },
+    {
+      "text": "Play tennis",
+      "day": "Feb 24th at 2:30pm",
+      "reminder": false,
+      "id": 4
+    }
+  ],
+  "regions": [
+    {
+      "id": 1,
+      "name": "East Region"
+    },
+    {
+      "id": 2,
+      "name": "South Region"
+    },
+    {
+      "id": 3,
+      "name": "West Region"
+    },
+    {
+      "id": 4,
+      "name": "North Region"
+    }
+  ],
+  "zoos": [
+    {
+      "id": 1,
+      "name": "Bronx Zoo, Bronx",
+      "region": {
+        "id": 1,
+        "name": "East Region"
+      }
+    },
+    {
+      "id": 2,
+      "name": "National Zoological Park, Washington DC",
+      "region": {
+        "id": 1,
+        "name": "East Region"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Philadelphia Zoo",
+      "region": {
+        "id": 1,
+        "name": "East Region"
+      }
+    },
+    {
+      "id": 4,
+      "name": "McCarthy's Wildlife, West Palm Beach",
+      "region": {
+        "id": 2,
+        "name": "South Region"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Zoo Miami, Miami",
+      "region": {
+        "id": 2,
+        "name": "South Region"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Denver Zoo",
+      "region": {
+        "id": 2,
+        "name": "South Region"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Oakland Zoo",
+      "region": {
+        "id": 3,
+        "name": "West Region"
+      }
+    },
+    {
+      "id": 8,
+      "name": "San Diego Zoo and Safari Park",
+      "region": {
+        "id": 3,
+        "name": "West Region"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Woodland Park Zoo",
+      "region": {
+        "id": 3,
+        "name": "West Region"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Saint Louis Zoo",
+      "region": {
+        "id": 4,
+        "name": "North Region"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Alaska Zoo",
+      "region": {
+        "id": 4,
+        "name": "North Region"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Bear Country USA, South Dakota",
+      "region": {
+        "id": 4,
+        "name": "North Region"
+      }
+    }
+  ],
+  "animalTypes": [
+    {
+      "id": 1,
+      "name": "Tiger"
+    },
+    {
+      "id": 2,
+      "name": "Horse"
+    },
+    {
+      "id": 3,
+      "name": "Fox"
+    },
+    {
+      "id": 4,
+      "name": "Cheetah"
+    },
+    {
+      "id": 5,
+      "name": "Falcon"
+    },
+    {
+      "id": 6,
+      "name": "Jaguar"
+    },
+    {
+      "id": 7,
+      "name": "Cat"
+    },
+    {
+      "id": 8,
+      "name": "Dog"
+    },
+    {
+      "id": 9,
+      "name": "Lion"
+    },
+    {
+      "id": 10,
+      "name": "Panda"
+    },
+    {
+      "id": 11,
+      "name": "Bear"
+    },
+    {
+      "id": 12,
+      "name": "Chameleon"
+    },
+    {
+      "id": 13,
+      "name": "Bird"
+    },
+    {
+      "id": 14,
+      "name": "Peacock"
+    },
+    {
+      "id": 15,
+      "name": "Wolf"
+    },
+    {
+      "id": 16,
+      "name": "Monkey"
+    },
+    {
+      "id": 17,
+      "name": "Zebra"
+    },
+    {
+      "id": 18,
+      "name": "Turtle"
+    },
+    {
+      "id": 19,
+      "name": "Deer"
+    },
+    {
+      "id": 20,
+      "name": "Rabbit"
+    },
+    {
+      "id": 21,
+      "name": "Fish"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "animalName": "Charlie",
+      "age": 21,
+      "description": "Charlie is a Falcon living in Woodland Park Zoo",
+      "animalType": {
+        "id": 5,
+        "name": "Falcon"
+      },
+      "zoo": {
+        "id": 9,
+        "name": "Woodland Park Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "animalName": "Milo",
+      "age": 15,
+      "description": "Milo is a Zebra living in National Zoological Park, Washington DC",
+      "animalType": {
+        "id": 17,
+        "name": "Zebra"
+      },
+      "zoo": {
+        "id": 2,
+        "name": "National Zoological Park, Washington DC",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "animalName": "Jake",
+      "age": 6,
+      "description": "Jake is a Horse living in Zoo Miami, Miami",
+      "animalType": {
+        "id": 2,
+        "name": "Horse"
+      },
+      "zoo": {
+        "id": 5,
+        "name": "Zoo Miami, Miami",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "animalName": "Oscar",
+      "age": 10,
+      "description": "Oscar is a Deer living in Alaska Zoo",
+      "animalType": {
+        "id": 19,
+        "name": "Deer"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "animalName": "Louie",
+      "age": 25,
+      "description": "Louie is a Zebra living in Philadelphia Zoo",
+      "animalType": {
+        "id": 17,
+        "name": "Zebra"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "animalName": "Princess",
+      "age": 49,
+      "description": "Princess is a Bear living in Oakland Zoo",
+      "animalType": {
+        "id": 11,
+        "name": "Bear"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "animalName": "Daisy",
+      "age": 49,
+      "description": "Daisy is a Peacock living in San Diego Zoo and Safari Park",
+      "animalType": {
+        "id": 14,
+        "name": "Peacock"
+      },
+      "zoo": {
+        "id": 8,
+        "name": "San Diego Zoo and Safari Park",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "animalName": "Holly",
+      "age": 22,
+      "description": "Holly is a Fox living in Woodland Park Zoo",
+      "animalType": {
+        "id": 3,
+        "name": "Fox"
+      },
+      "zoo": {
+        "id": 9,
+        "name": "Woodland Park Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "animalName": "Hunter",
+      "age": 30,
+      "description": "Hunter is a Wolf living in McCarthy's Wildlife, West Palm Beach",
+      "animalType": {
+        "id": 15,
+        "name": "Wolf"
+      },
+      "zoo": {
+        "id": 4,
+        "name": "McCarthy's Wildlife, West Palm Beach",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "animalName": "Buddy",
+      "age": 10,
+      "description": "Buddy is a Fox living in Bear Country USA, South Dakota",
+      "animalType": {
+        "id": 3,
+        "name": "Fox"
+      },
+      "zoo": {
+        "id": 12,
+        "name": "Bear Country USA, South Dakota",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "animalName": "Jack",
+      "age": 12,
+      "description": "Jack is a Tiger living in Bear Country USA, South Dakota",
+      "animalType": {
+        "id": 1,
+        "name": "Tiger"
+      },
+      "zoo": {
+        "id": 12,
+        "name": "Bear Country USA, South Dakota",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "animalName": "Brandy",
+      "age": 19,
+      "description": "Brandy is a Wolf living in Zoo Miami, Miami",
+      "animalType": {
+        "id": 15,
+        "name": "Wolf"
+      },
+      "zoo": {
+        "id": 5,
+        "name": "Zoo Miami, Miami",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "animalName": "Gus",
+      "age": 12,
+      "description": "Gus is a Fish living in Oakland Zoo",
+      "animalType": {
+        "id": 21,
+        "name": "Fish"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "animalName": "Zoey",
+      "age": 43,
+      "description": "Zoey is a Dog living in Oakland Zoo",
+      "animalType": {
+        "id": 8,
+        "name": "Dog"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "animalName": "Dakota",
+      "age": 9,
+      "description": "Dakota is a Dog living in McCarthy's Wildlife, West Palm Beach",
+      "animalType": {
+        "id": 8,
+        "name": "Dog"
+      },
+      "zoo": {
+        "id": 4,
+        "name": "McCarthy's Wildlife, West Palm Beach",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "animalName": "Rocco",
+      "age": 40,
+      "description": "Rocco is a Peacock living in Saint Louis Zoo",
+      "animalType": {
+        "id": 14,
+        "name": "Peacock"
+      },
+      "zoo": {
+        "id": 10,
+        "name": "Saint Louis Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "animalName": "Max",
+      "age": 19,
+      "description": "Max is a Lion living in Philadelphia Zoo",
+      "animalType": {
+        "id": 9,
+        "name": "Lion"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "animalName": "Chloe",
+      "age": 10,
+      "description": "Chloe is a Rabbit living in Alaska Zoo",
+      "animalType": {
+        "id": 20,
+        "name": "Rabbit"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "animalName": "Maximus",
+      "age": 10,
+      "description": "Maximus is a Monkey living in Saint Louis Zoo",
+      "animalType": {
+        "id": 16,
+        "name": "Monkey"
+      },
+      "zoo": {
+        "id": 10,
+        "name": "Saint Louis Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "animalName": "Rocco",
+      "age": 2,
+      "description": "Rocco is a Falcon living in Alaska Zoo",
+      "animalType": {
+        "id": 5,
+        "name": "Falcon"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "animalName": "Dakota",
+      "age": 21,
+      "description": "Dakota is a Bear living in Woodland Park Zoo",
+      "animalType": {
+        "id": 11,
+        "name": "Bear"
+      },
+      "zoo": {
+        "id": 9,
+        "name": "Woodland Park Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "animalName": "Bailey",
+      "age": 5,
+      "description": "Bailey is a Zebra living in Philadelphia Zoo",
+      "animalType": {
+        "id": 17,
+        "name": "Zebra"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 23,
+      "animalName": "Jackson",
+      "age": 8,
+      "description": "Jackson is a Horse living in Alaska Zoo",
+      "animalType": {
+        "id": 2,
+        "name": "Horse"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "animalName": "Lexi",
+      "age": 14,
+      "description": "Lexi is a Jaguar living in Oakland Zoo",
+      "animalType": {
+        "id": 6,
+        "name": "Jaguar"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "animalName": "Rudy",
+      "age": 6,
+      "description": "Rudy is a Rabbit living in Alaska Zoo",
+      "animalType": {
+        "id": 20,
+        "name": "Rabbit"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "animalName": "Shadow",
+      "age": 36,
+      "description": "Shadow is a Fox living in Denver Zoo",
+      "animalType": {
+        "id": 3,
+        "name": "Fox"
+      },
+      "zoo": {
+        "id": 6,
+        "name": "Denver Zoo",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 27,
+      "animalName": "Gracie",
+      "age": 18,
+      "description": "Gracie is a Bird living in San Diego Zoo and Safari Park",
+      "animalType": {
+        "id": 13,
+        "name": "Bird"
+      },
+      "zoo": {
+        "id": 8,
+        "name": "San Diego Zoo and Safari Park",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 28,
+      "animalName": "Coco",
+      "age": 33,
+      "description": "Coco is a Tiger living in Oakland Zoo",
+      "animalType": {
+        "id": 1,
+        "name": "Tiger"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 29,
+      "animalName": "Lulu",
+      "age": 23,
+      "description": "Lulu is a Peacock living in San Diego Zoo and Safari Park",
+      "animalType": {
+        "id": 14,
+        "name": "Peacock"
+      },
+      "zoo": {
+        "id": 8,
+        "name": "San Diego Zoo and Safari Park",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 30,
+      "animalName": "Max",
+      "age": 47,
+      "description": "Max is a Lion living in Oakland Zoo",
+      "animalType": {
+        "id": 9,
+        "name": "Lion"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 31,
+      "animalName": "Sasha",
+      "age": 45,
+      "description": "Sasha is a Cat living in Bear Country USA, South Dakota",
+      "animalType": {
+        "id": 7,
+        "name": "Cat"
+      },
+      "zoo": {
+        "id": 12,
+        "name": "Bear Country USA, South Dakota",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "animalName": "Boomer",
+      "age": 37,
+      "description": "Boomer is a Tiger living in Oakland Zoo",
+      "animalType": {
+        "id": 1,
+        "name": "Tiger"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 33,
+      "animalName": "Sam",
+      "age": 12,
+      "description": "Sam is a Peacock living in Oakland Zoo",
+      "animalType": {
+        "id": 14,
+        "name": "Peacock"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 34,
+      "animalName": "Dakota",
+      "age": 11,
+      "description": "Dakota is a Turtle living in Philadelphia Zoo",
+      "animalType": {
+        "id": 18,
+        "name": "Turtle"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 35,
+      "animalName": "Jasmine",
+      "age": 28,
+      "description": "Jasmine is a Chameleon living in National Zoological Park, Washington DC",
+      "animalType": {
+        "id": 12,
+        "name": "Chameleon"
+      },
+      "zoo": {
+        "id": 2,
+        "name": "National Zoological Park, Washington DC",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 36,
+      "animalName": "Abby",
+      "age": 41,
+      "description": "Abby is a Fox living in Philadelphia Zoo",
+      "animalType": {
+        "id": 3,
+        "name": "Fox"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 37,
+      "animalName": "Maggie",
+      "age": 29,
+      "description": "Maggie is a Falcon living in San Diego Zoo and Safari Park",
+      "animalType": {
+        "id": 5,
+        "name": "Falcon"
+      },
+      "zoo": {
+        "id": 8,
+        "name": "San Diego Zoo and Safari Park",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 38,
+      "animalName": "Zoey",
+      "age": 40,
+      "description": "Zoey is a Fox living in Saint Louis Zoo",
+      "animalType": {
+        "id": 3,
+        "name": "Fox"
+      },
+      "zoo": {
+        "id": 10,
+        "name": "Saint Louis Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 39,
+      "animalName": "Roxy",
+      "age": 33,
+      "description": "Roxy is a Deer living in Philadelphia Zoo",
+      "animalType": {
+        "id": 19,
+        "name": "Deer"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 40,
+      "animalName": "Penny",
+      "age": 22,
+      "description": "Penny is a Monkey living in Denver Zoo",
+      "animalType": {
+        "id": 16,
+        "name": "Monkey"
+      },
+      "zoo": {
+        "id": 6,
+        "name": "Denver Zoo",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 41,
+      "animalName": "Harley",
+      "age": 21,
+      "description": "Harley is a Bird living in McCarthy's Wildlife, West Palm Beach",
+      "animalType": {
+        "id": 13,
+        "name": "Bird"
+      },
+      "zoo": {
+        "id": 4,
+        "name": "McCarthy's Wildlife, West Palm Beach",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 42,
+      "animalName": "Roxie",
+      "age": 50,
+      "description": "Roxie is a Bird living in Alaska Zoo",
+      "animalType": {
+        "id": 13,
+        "name": "Bird"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 43,
+      "animalName": "Brandy",
+      "age": 23,
+      "description": "Brandy is a Horse living in National Zoological Park, Washington DC",
+      "animalType": {
+        "id": 2,
+        "name": "Horse"
+      },
+      "zoo": {
+        "id": 2,
+        "name": "National Zoological Park, Washington DC",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 44,
+      "animalName": "Rocco",
+      "age": 16,
+      "description": "Rocco is a Bird living in Zoo Miami, Miami",
+      "animalType": {
+        "id": 13,
+        "name": "Bird"
+      },
+      "zoo": {
+        "id": 5,
+        "name": "Zoo Miami, Miami",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 45,
+      "animalName": "Lily",
+      "age": 20,
+      "description": "Lily is a Turtle living in Bronx Zoo, Bronx",
+      "animalType": {
+        "id": 18,
+        "name": "Turtle"
+      },
+      "zoo": {
+        "id": 1,
+        "name": "Bronx Zoo, Bronx",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 46,
+      "animalName": "Zeus",
+      "age": 13,
+      "description": "Zeus is a Tiger living in Oakland Zoo",
+      "animalType": {
+        "id": 1,
+        "name": "Tiger"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 47,
+      "animalName": "Louie",
+      "age": 50,
+      "description": "Louie is a Fish living in Bear Country USA, South Dakota",
+      "animalType": {
+        "id": 21,
+        "name": "Fish"
+      },
+      "zoo": {
+        "id": 12,
+        "name": "Bear Country USA, South Dakota",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 48,
+      "animalName": "Sophie",
+      "age": 23,
+      "description": "Sophie is a Peacock living in National Zoological Park, Washington DC",
+      "animalType": {
+        "id": 14,
+        "name": "Peacock"
+      },
+      "zoo": {
+        "id": 2,
+        "name": "National Zoological Park, Washington DC",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 49,
+      "animalName": "Teddy",
+      "age": 10,
+      "description": "Teddy is a Fox living in Philadelphia Zoo",
+      "animalType": {
+        "id": 3,
+        "name": "Fox"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 50,
+      "animalName": "Teddy",
+      "age": 38,
+      "description": "Teddy is a Rabbit living in San Diego Zoo and Safari Park",
+      "animalType": {
+        "id": 20,
+        "name": "Rabbit"
+      },
+      "zoo": {
+        "id": 8,
+        "name": "San Diego Zoo and Safari Park",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 51,
+      "animalName": "Samantha",
+      "age": 40,
+      "description": "Samantha is a Turtle living in Philadelphia Zoo",
+      "animalType": {
+        "id": 18,
+        "name": "Turtle"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 52,
+      "animalName": "Oliver",
+      "age": 23,
+      "description": "Oliver is a Zebra living in Bear Country USA, South Dakota",
+      "animalType": {
+        "id": 17,
+        "name": "Zebra"
+      },
+      "zoo": {
+        "id": 12,
+        "name": "Bear Country USA, South Dakota",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 53,
+      "animalName": "Gus",
+      "age": 21,
+      "description": "Gus is a Chameleon living in Saint Louis Zoo",
+      "animalType": {
+        "id": 12,
+        "name": "Chameleon"
+      },
+      "zoo": {
+        "id": 10,
+        "name": "Saint Louis Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 54,
+      "animalName": "Roxie",
+      "age": 38,
+      "description": "Roxie is a Peacock living in Alaska Zoo",
+      "animalType": {
+        "id": 14,
+        "name": "Peacock"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 55,
+      "animalName": "Sandy",
+      "age": 1,
+      "description": "Sandy is a Peacock living in National Zoological Park, Washington DC",
+      "animalType": {
+        "id": 14,
+        "name": "Peacock"
+      },
+      "zoo": {
+        "id": 2,
+        "name": "National Zoological Park, Washington DC",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 56,
+      "animalName": "Angel",
+      "age": 43,
+      "description": "Angel is a Wolf living in San Diego Zoo and Safari Park",
+      "animalType": {
+        "id": 15,
+        "name": "Wolf"
+      },
+      "zoo": {
+        "id": 8,
+        "name": "San Diego Zoo and Safari Park",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 57,
+      "animalName": "Emma",
+      "age": 16,
+      "description": "Emma is a Chameleon living in Saint Louis Zoo",
+      "animalType": {
+        "id": 12,
+        "name": "Chameleon"
+      },
+      "zoo": {
+        "id": 10,
+        "name": "Saint Louis Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 58,
+      "animalName": "Tucker",
+      "age": 12,
+      "description": "Tucker is a Bear living in Bear Country USA, South Dakota",
+      "animalType": {
+        "id": 11,
+        "name": "Bear"
+      },
+      "zoo": {
+        "id": 12,
+        "name": "Bear Country USA, South Dakota",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 59,
+      "animalName": "Katie",
+      "age": 36,
+      "description": "Katie is a Monkey living in Alaska Zoo",
+      "animalType": {
+        "id": 16,
+        "name": "Monkey"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 60,
+      "animalName": "Zoey",
+      "age": 23,
+      "description": "Zoey is a Monkey living in Saint Louis Zoo",
+      "animalType": {
+        "id": 16,
+        "name": "Monkey"
+      },
+      "zoo": {
+        "id": 10,
+        "name": "Saint Louis Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 61,
+      "animalName": "Luna",
+      "age": 30,
+      "description": "Luna is a Deer living in Oakland Zoo",
+      "animalType": {
+        "id": 19,
+        "name": "Deer"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 62,
+      "animalName": "Angel",
+      "age": 2,
+      "description": "Angel is a Rabbit living in Bear Country USA, South Dakota",
+      "animalType": {
+        "id": 20,
+        "name": "Rabbit"
+      },
+      "zoo": {
+        "id": 12,
+        "name": "Bear Country USA, South Dakota",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 63,
+      "animalName": "Dakota",
+      "age": 18,
+      "description": "Dakota is a Tiger living in Woodland Park Zoo",
+      "animalType": {
+        "id": 1,
+        "name": "Tiger"
+      },
+      "zoo": {
+        "id": 9,
+        "name": "Woodland Park Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 64,
+      "animalName": "Buddy",
+      "age": 6,
+      "description": "Buddy is a Deer living in Woodland Park Zoo",
+      "animalType": {
+        "id": 19,
+        "name": "Deer"
+      },
+      "zoo": {
+        "id": 9,
+        "name": "Woodland Park Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 65,
+      "animalName": "Lucky",
+      "age": 34,
+      "description": "Lucky is a Jaguar living in Denver Zoo",
+      "animalType": {
+        "id": 6,
+        "name": "Jaguar"
+      },
+      "zoo": {
+        "id": 6,
+        "name": "Denver Zoo",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 66,
+      "animalName": "Sam",
+      "age": 22,
+      "description": "Sam is a Fish living in San Diego Zoo and Safari Park",
+      "animalType": {
+        "id": 21,
+        "name": "Fish"
+      },
+      "zoo": {
+        "id": 8,
+        "name": "San Diego Zoo and Safari Park",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 67,
+      "animalName": "Ruby",
+      "age": 49,
+      "description": "Ruby is a Panda living in Woodland Park Zoo",
+      "animalType": {
+        "id": 10,
+        "name": "Panda"
+      },
+      "zoo": {
+        "id": 9,
+        "name": "Woodland Park Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 68,
+      "animalName": "Oscar",
+      "age": 2,
+      "description": "Oscar is a Cat living in National Zoological Park, Washington DC",
+      "animalType": {
+        "id": 7,
+        "name": "Cat"
+      },
+      "zoo": {
+        "id": 2,
+        "name": "National Zoological Park, Washington DC",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 69,
+      "animalName": "Roxy",
+      "age": 14,
+      "description": "Roxy is a Deer living in Zoo Miami, Miami",
+      "animalType": {
+        "id": 19,
+        "name": "Deer"
+      },
+      "zoo": {
+        "id": 5,
+        "name": "Zoo Miami, Miami",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 70,
+      "animalName": "Lulu",
+      "age": 39,
+      "description": "Lulu is a Bird living in Woodland Park Zoo",
+      "animalType": {
+        "id": 13,
+        "name": "Bird"
+      },
+      "zoo": {
+        "id": 9,
+        "name": "Woodland Park Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 71,
+      "animalName": "Duke",
+      "age": 13,
+      "description": "Duke is a Bear living in San Diego Zoo and Safari Park",
+      "animalType": {
+        "id": 11,
+        "name": "Bear"
+      },
+      "zoo": {
+        "id": 8,
+        "name": "San Diego Zoo and Safari Park",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 72,
+      "animalName": "Belle",
+      "age": 11,
+      "description": "Belle is a Rabbit living in Oakland Zoo",
+      "animalType": {
+        "id": 20,
+        "name": "Rabbit"
+      },
+      "zoo": {
+        "id": 7,
+        "name": "Oakland Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 73,
+      "animalName": "Buster",
+      "age": 30,
+      "description": "Buster is a Dog living in Saint Louis Zoo",
+      "animalType": {
+        "id": 8,
+        "name": "Dog"
+      },
+      "zoo": {
+        "id": 10,
+        "name": "Saint Louis Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 74,
+      "animalName": "Dixie",
+      "age": 28,
+      "description": "Dixie is a Lion living in Bear Country USA, South Dakota",
+      "animalType": {
+        "id": 9,
+        "name": "Lion"
+      },
+      "zoo": {
+        "id": 12,
+        "name": "Bear Country USA, South Dakota",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 75,
+      "animalName": "Bear",
+      "age": 35,
+      "description": "Bear is a Chameleon living in Alaska Zoo",
+      "animalType": {
+        "id": 12,
+        "name": "Chameleon"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 76,
+      "animalName": "Bandit",
+      "age": 20,
+      "description": "Bandit is a Lion living in McCarthy's Wildlife, West Palm Beach",
+      "animalType": {
+        "id": 9,
+        "name": "Lion"
+      },
+      "zoo": {
+        "id": 4,
+        "name": "McCarthy's Wildlife, West Palm Beach",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 77,
+      "animalName": "Beau",
+      "age": 36,
+      "description": "Beau is a Monkey living in Woodland Park Zoo",
+      "animalType": {
+        "id": 16,
+        "name": "Monkey"
+      },
+      "zoo": {
+        "id": 9,
+        "name": "Woodland Park Zoo",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 78,
+      "animalName": "Zoey",
+      "age": 26,
+      "description": "Zoey is a Deer living in San Diego Zoo and Safari Park",
+      "animalType": {
+        "id": 19,
+        "name": "Deer"
+      },
+      "zoo": {
+        "id": 8,
+        "name": "San Diego Zoo and Safari Park",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 79,
+      "animalName": "Stella",
+      "age": 32,
+      "description": "Stella is a Jaguar living in Philadelphia Zoo",
+      "animalType": {
+        "id": 6,
+        "name": "Jaguar"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 80,
+      "animalName": "Sparky",
+      "age": 5,
+      "description": "Sparky is a Panda living in Philadelphia Zoo",
+      "animalType": {
+        "id": 10,
+        "name": "Panda"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 81,
+      "animalName": "Lucky",
+      "age": 19,
+      "description": "Lucky is a Zebra living in Zoo Miami, Miami",
+      "animalType": {
+        "id": 17,
+        "name": "Zebra"
+      },
+      "zoo": {
+        "id": 5,
+        "name": "Zoo Miami, Miami",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 82,
+      "animalName": "Sadie",
+      "age": 31,
+      "description": "Sadie is a Dog living in San Diego Zoo and Safari Park",
+      "animalType": {
+        "id": 8,
+        "name": "Dog"
+      },
+      "zoo": {
+        "id": 8,
+        "name": "San Diego Zoo and Safari Park",
+        "region": {
+          "id": 3,
+          "name": "West Region"
+        }
+      }
+    },
+    {
+      "id": 83,
+      "animalName": "Samantha",
+      "age": 36,
+      "description": "Samantha is a Rabbit living in McCarthy's Wildlife, West Palm Beach",
+      "animalType": {
+        "id": 20,
+        "name": "Rabbit"
+      },
+      "zoo": {
+        "id": 4,
+        "name": "McCarthy's Wildlife, West Palm Beach",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 84,
+      "animalName": "Angel",
+      "age": 1,
+      "description": "Angel is a Zebra living in Bronx Zoo, Bronx",
+      "animalType": {
+        "id": 17,
+        "name": "Zebra"
+      },
+      "zoo": {
+        "id": 1,
+        "name": "Bronx Zoo, Bronx",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 85,
+      "animalName": "Zoey",
+      "age": 19,
+      "description": "Zoey is a Lion living in Zoo Miami, Miami",
+      "animalType": {
+        "id": 9,
+        "name": "Lion"
+      },
+      "zoo": {
+        "id": 5,
+        "name": "Zoo Miami, Miami",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 86,
+      "animalName": "Dixie",
+      "age": 30,
+      "description": "Dixie is a Horse living in Saint Louis Zoo",
+      "animalType": {
+        "id": 2,
+        "name": "Horse"
+      },
+      "zoo": {
+        "id": 10,
+        "name": "Saint Louis Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 87,
+      "animalName": "Ruby",
+      "age": 1,
+      "description": "Ruby is a Bird living in Zoo Miami, Miami",
+      "animalType": {
+        "id": 13,
+        "name": "Bird"
+      },
+      "zoo": {
+        "id": 5,
+        "name": "Zoo Miami, Miami",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 88,
+      "animalName": "Chloe",
+      "age": 45,
+      "description": "Chloe is a Deer living in Denver Zoo",
+      "animalType": {
+        "id": 19,
+        "name": "Deer"
+      },
+      "zoo": {
+        "id": 6,
+        "name": "Denver Zoo",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 89,
+      "animalName": "Zeus",
+      "age": 26,
+      "description": "Zeus is a Fox living in Philadelphia Zoo",
+      "animalType": {
+        "id": 3,
+        "name": "Fox"
+      },
+      "zoo": {
+        "id": 3,
+        "name": "Philadelphia Zoo",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 90,
+      "animalName": "Sandy",
+      "age": 5,
+      "description": "Sandy is a Zebra living in Saint Louis Zoo",
+      "animalType": {
+        "id": 17,
+        "name": "Zebra"
+      },
+      "zoo": {
+        "id": 10,
+        "name": "Saint Louis Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 91,
+      "animalName": "Sophie",
+      "age": 50,
+      "description": "Sophie is a Bear living in Denver Zoo",
+      "animalType": {
+        "id": 11,
+        "name": "Bear"
+      },
+      "zoo": {
+        "id": 6,
+        "name": "Denver Zoo",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 92,
+      "animalName": "Lucy",
+      "age": 26,
+      "description": "Lucy is a Bird living in Denver Zoo",
+      "animalType": {
+        "id": 13,
+        "name": "Bird"
+      },
+      "zoo": {
+        "id": 6,
+        "name": "Denver Zoo",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 93,
+      "animalName": "Chloe",
+      "age": 7,
+      "description": "Chloe is a Monkey living in Zoo Miami, Miami",
+      "animalType": {
+        "id": 16,
+        "name": "Monkey"
+      },
+      "zoo": {
+        "id": 5,
+        "name": "Zoo Miami, Miami",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 94,
+      "animalName": "Roxie",
+      "age": 20,
+      "description": "Roxie is a Peacock living in Alaska Zoo",
+      "animalType": {
+        "id": 14,
+        "name": "Peacock"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 95,
+      "animalName": "Sophie",
+      "age": 28,
+      "description": "Sophie is a Jaguar living in Alaska Zoo",
+      "animalType": {
+        "id": 6,
+        "name": "Jaguar"
+      },
+      "zoo": {
+        "id": 11,
+        "name": "Alaska Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 96,
+      "animalName": "Riley",
+      "age": 22,
+      "description": "Riley is a Deer living in National Zoological Park, Washington DC",
+      "animalType": {
+        "id": 19,
+        "name": "Deer"
+      },
+      "zoo": {
+        "id": 2,
+        "name": "National Zoological Park, Washington DC",
+        "region": {
+          "id": 1,
+          "name": "East Region"
+        }
+      }
+    },
+    {
+      "id": 97,
+      "animalName": "Oliver",
+      "age": 33,
+      "description": "Oliver is a Dog living in McCarthy's Wildlife, West Palm Beach",
+      "animalType": {
+        "id": 8,
+        "name": "Dog"
+      },
+      "zoo": {
+        "id": 4,
+        "name": "McCarthy's Wildlife, West Palm Beach",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 98,
+      "animalName": "Coco",
+      "age": 16,
+      "description": "Coco is a Horse living in Bear Country USA, South Dakota",
+      "animalType": {
+        "id": 2,
+        "name": "Horse"
+      },
+      "zoo": {
+        "id": 12,
+        "name": "Bear Country USA, South Dakota",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
+    },
+    {
+      "id": 99,
+      "animalName": "Max",
+      "age": 28,
+      "description": "Max is a Jaguar living in McCarthy's Wildlife, West Palm Beach",
+      "animalType": {
+        "id": 6,
+        "name": "Jaguar"
+      },
+      "zoo": {
+        "id": 4,
+        "name": "McCarthy's Wildlife, West Palm Beach",
+        "region": {
+          "id": 2,
+          "name": "South Region"
+        }
+      }
+    },
+    {
+      "id": 100,
+      "animalName": "Bandit",
+      "age": 25,
+      "description": "Bandit is a Monkey living in Saint Louis Zoo",
+      "animalType": {
+        "id": 16,
+        "name": "Monkey"
+      },
+      "zoo": {
+        "id": 10,
+        "name": "Saint Louis Zoo",
+        "region": {
+          "id": 4,
+          "name": "North Region"
+        }
+      }
     }
   ]
 }
